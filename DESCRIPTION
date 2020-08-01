@@ -1,15 +1,14 @@
 Package: waveformlidar
 Type: Package
 Title: Waveform LiDAR Data Processing and Analysis
-Version: 1.1.0
-Date: 2019-04-24
+Version: 1.2.0
+Date: 2020-07-25
 Authors@R: person("Tan", "Zhou", email = "tankchow12@gmail.com",
                   role = c("aut", "cre"))
-Depends: R (>= 3.3.0)
+Depends: R (>= 4.0.0)
 Maintainer: Tan Zhou <tankchow12@gmail.com>
-Imports: data.table (>= 1.9.7), caTools, minpack.lm, flux, raster (>=
-        2.8.0), rgdal (>= 1.3.0), sp, rgeos (>= 0.3.8), sqldf,
-        splitstackshape, reshape2
+Imports: data.table, caTools, minpack.lm, flux, raster, rgdal, sp,
+        rgeos, sqldf, splitstackshape, reshape2
 Suggests: knitr, rPeaks
 Additional_repositories: https://tankwin08.github.io/drat
 Description: A wealth of Full Waveform (FW) Light Detection and Ranging (LiDAR) data are available to 
@@ -37,9 +36,9 @@ Encoding: UTF-8
 LazyData: true
 URL: https://github.com/tankwin08/waveformlidar,
 BugReports: https://github.com/tankwin08/waveformlidar/issues
-RoxygenNote: 6.1.1
+RoxygenNote: 7.1.0
 NeedsCompilation: no
-Packaged: 2019-04-25 15:58:44 UTC; tank
+Packaged: 2020-07-25 22:07:03 UTC; tank
 Author: Tan Zhou [aut, cre]
 Repository: CRAN
-Date/Publication: 2019-04-30 16:20:04 UTC
+Date/Publication: 2020-08-01 09:20:03 UTC
